@@ -13,7 +13,7 @@ function App() {
     setCount(count+1);
   }
   function resetHandler(){
-    setCount(count+1);
+    setCount(0);
   }
   return (
     <div className="w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] flex-col gap-10">
